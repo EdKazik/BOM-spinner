@@ -12,10 +12,6 @@ form.addEventListener('submit', (event) => {
 });
 
 
-console.log(passwordInput.value.length);
-
-
-
 function validFunc() {
         if ( emailInput.value.length === 0 || passwordInput.value.length === 0) {
         button.disabled = true;
