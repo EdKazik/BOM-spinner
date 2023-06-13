@@ -11,7 +11,6 @@ form.addEventListener('submit', (event) => {
     showSpinner()
 });
 
-
 function validFunc() {
         if ( emailInput.value.length === 0 || passwordInput.value.length === 0) {
         button.disabled = true;
@@ -24,7 +23,6 @@ function showSpinner() {
     spinner.style.display = "inline-block";
     setTimeout(locationPage, 2000);
     form.style.display = 'none';
-
 }
 
 function locationPage() {
