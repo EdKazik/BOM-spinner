@@ -22,7 +22,9 @@ function validFunc() {
 
 function showSpinner() {
     spinner.style.display = "inline-block";
-    setTimeout(locationPage, 2000)
+    setTimeout(locationPage, 2000);
+    form.style.display = 'none';
+
 }
 
 function locationPage() {
